@@ -67,7 +67,7 @@ namespace PvPChecks {
             if (player == null) return;
 
             //If the player isn't in pvp or using an item, skip pvp checking
-            if (!player.TPlayer.hostile || (args.Control & 32) == 0) return;
+            if (!player.TPlayer.hostile || (!args.Control.IsUsingItem)) return;
 
             //If the player has this permission, skip pvp checking
             if (player.HasPermission("pvpchecks.useall")) return;
@@ -194,7 +194,7 @@ namespace PvPChecks {
                     args.Player.SendErrorMessage("No items by that name were found.");
                     return;
                 } else if (weaponlist.Count > 1) {
-                    TShock.Utils.SendMultipleMatchError(args.Player, weaponlist);
+                    args.Player.SendMultipleMatchError(weaponlist);
                     return;
                 } else {
                     weaponname = weaponlist[0];
@@ -241,7 +241,7 @@ namespace PvPChecks {
                         args.Player.SendErrorMessage("No buffs by that name were found.");
                         return;
                     } else if (bufflist.Count > 1) {
-                        TShock.Utils.SendMultipleMatchError(args.Player, bufflist.Select(p => TShock.Utils.GetBuffName(p)));
+                        args.Player.SendMultipleMatchError(bufflist.Select(p => TShock.Utils.GetBuffName(p)));
                         return;
                     } else {
                         buffid = bufflist[0];

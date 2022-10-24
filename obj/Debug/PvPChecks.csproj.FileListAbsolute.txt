@@ -1,0 +1,15 @@
+C:\Users\Julian\Documents\GitHub\PvPChecks\obj\Debug\PvPChecks.csproj.AssemblyReference.cache
+C:\Users\Julian\Documents\GitHub\PvPChecks\obj\Debug\PvPChecks.csproj.CoreCompileInputs.cache
+C:\Users\Julian\Documents\GitHub\PvPChecks\obj\Debug\PvPChecks.dll
+C:\Users\Julian\Documents\GitHub\PvPChecks\obj\Debug\PvPChecks.pdb
+C:\Users\Julian\Documents\GitHub\PvPChecks\bin\Debug\PvPChecks.dll
+C:\Users\Julian\Documents\GitHub\PvPChecks\bin\Debug\PvPChecks.pdb
+C:\Users\Julian\Documents\GitHub\PvPChecks\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Julian\Documents\GitHub\PvPChecks\bin\Debug\OTAPI.dll
+C:\Users\Julian\Documents\GitHub\PvPChecks\bin\Debug\TerrariaServerAPI.exe
+C:\Users\Julian\Documents\GitHub\PvPChecks\bin\Debug\TShockAPI.dll
+C:\Users\Julian\Documents\GitHub\PvPChecks\bin\Debug\Mono.Cecil.dll
+C:\Users\Julian\Documents\GitHub\PvPChecks\bin\Debug\MySql.Data.dll
+C:\Users\Julian\Documents\GitHub\PvPChecks\bin\Debug\Mono.Data.Sqlite.dll
+C:\Users\Julian\Documents\GitHub\PvPChecks\bin\Debug\OTAPI.pdb
+C:\Users\Julian\Documents\GitHub\PvPChecks\obj\Debug\PvPChecks.csproj.CopyComplete
